@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: Heebo;
+}
+
+/*navbar styles start*/
+.navbar-link {
+
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#navbar {
+
+    display: flex;
+    justify-content: right;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 500;
+
+}
+
+/*navbar styles end*/
+
+/*backdrop styles start*/
+#backdrop {
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    column-gap: 20px;
+    padding: 0 8%;
+    margin-top: 8%;
+}
+
+#backdrop-left-colum {
+
+    width: 100%;
+    color: #21243D;
+}
+
+#backdrop-left-colum>h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#backdrop-left-colum>p {
+
+    padding: 13px 8px;
+}
+
+#backdrop-left-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#backdrop-left-button {
+
+    background-color: brown;
+    padding: 12px 18px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#backdrop-right-colum {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+#backdrop-right-colum img {
+
+    width: 200px;
+    text-align: center;
+    height: auto;
+}
+
+/*backdrop styles end*/
+
+/*section experience styles start*/
+
+#section-experience {
+    padding: 7% 9%;
+}
+
+
+.section-experience-date {
+    font-size: 15px;
+    padding: 7px 17px;
+    color: darkolivegreen;
+    border-left: 5px dotted black;
+    margin: 3px 0;
+}
+
+.section-experience-h {
+
+    font-size: 23px;
+    margin-bottom: 19px;
+}
+
+.section-experience-founder {
+    font-size: medium;
+    padding: 0 54px;
+    border-left: 5px dotted black;
+    margin: 3px 0;
+}
+
+.section-experience-p {
+
+    padding: 5px 56px;
+    border-left: 5px dotted black;
+    margin: 3px 0;
+}
+
+/*section experience styles end*/
+
+/*section 2 experience styles start*/
+
+#section-2-experience {
+    padding: 0 9%;
+}
+
+.section-2-date {
+    font-size: 15px;
+    padding: 7px 17px;
+    color: darkolivegreen;
+    border-left: 5px dotted black;
+    margin: 3px 0;
+}
+
+.section-2-h {
+
+    font-size: 23px;
+    margin-bottom: 19px;
+}
+
+.section-2-study {
+    font-size: medium;
+    padding: 0 54px;
+    border-left: 5px dotted black;
+    margin: 3px 0;
+}
+
+.section-2-p {
+
+    padding: 5px 56px;
+    border-left: 5px dotted black;
+    margin: 3px 0;
+}
+
+/*section 2 experience styles end*/
+
+
+/*skills section styles start*/
+
+#s-a-section {
+
+    padding: 9% 9%;
+    column-gap: 10%;
+
+}
+
+.skills-ul {
+
+    padding: 0 15px;
+}
+
+#skills {
+
+    width: 100%;
+}
+
+#skills ul li {
+
+    padding: 6px 0;
+
+}
+
+#skills>h2 {
+
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/*skills section styles end*/
+
+/*activites section styles start*/
+
+#activites>h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#activites ul li {
+
+    padding: 5px 0;
+}
+
+#activites {
+
+    width: 100%;
+    margin-top: 35px;
+}
+
+#activites ul {
+
+    padding: 0 15px;
+}
+
+/*activites section styles end*/
+
+
+@media screen and (min-width:321px) {
+
+    #backdrop {
+
+        flex-direction: row;
+    }
+
+    #backdrop-left-colum {
+
+        width: 50%;
+        color: #21243D;
+    }
+
+    #backdrop-left-colum>h1 {
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    #backdrop-right-colum img {
+
+        width: 300px;
+        text-align: center;
+    }
+
+    #backdrop-right-colum {
+
+        width: 45%;
+
+    }
+
+    #backdrop-left-colum>p {
+
+        padding: 13px 0;
+    }
+
+    #skills {
+
+        width: 40%;
+    }
+
+    #s-a-section {
+
+        display: flex;
+    }
+
+    #activites {
+
+        width: 40%;
+    }
+}
